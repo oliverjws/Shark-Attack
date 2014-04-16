@@ -7,13 +7,15 @@
 //
 
 #import "OJWSAppDelegate.h"
+#import <AVFoundation/AVFoundation.h>
 
 @implementation OJWSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+
 {
-    // Override point for customization after application launch.
-    return YES;
+   
+        return YES;
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

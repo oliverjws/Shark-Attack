@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface OJWSAppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface OJWSAppDelegate : UIResponder <UIApplicationDelegate, AVAudioPlayerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
 @end
+    

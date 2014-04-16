@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A70916CB1855CEE1004DF565 /* SABackground.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A70916CA1855CEE1004DF565 /* SABackground.mp3 */; };
+		A70916CD185742F3004DF565 /* sharkdown.png in Resources */ = {isa = PBXBuildFile; fileRef = A70916CC185742F3004DF565 /* sharkdown.png */; };
+		A70916CF185742F9004DF565 /* sharkup.png in Resources */ = {isa = PBXBuildFile; fileRef = A70916CE185742F9004DF565 /* sharkup.png */; };
+		A70916D118575C27004DF565 /* Jellyfish.png in Resources */ = {isa = PBXBuildFile; fileRef = A70916D018575C27004DF565 /* Jellyfish.png */; };
+		A70916D418575D08004DF565 /* sharkdown2.png in Resources */ = {isa = PBXBuildFile; fileRef = A70916D218575D08004DF565 /* sharkdown2.png */; };
+		A70916D518575D08004DF565 /* sharkup2.png in Resources */ = {isa = PBXBuildFile; fileRef = A70916D318575D08004DF565 /* sharkup2.png */; };
+		A723C3CA18577F7100F355FC /* OJWSViewController in Resources */ = {isa = PBXBuildFile; fileRef = A723C3C918577F7100F355FC /* OJWSViewController */; };
+		A723C3D21857B81600F355FC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A723C3D11857B81600F355FC /* AudioToolbox.framework */; };
+		A723C3D41857C9B300F355FC /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A723C3D31857C9B300F355FC /* Social.framework */; };
 		A72C411B1851508C00CD03F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C411A1851508C00CD03F1 /* Foundation.framework */; };
 		A72C411D1851508C00CD03F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C411C1851508C00CD03F1 /* CoreGraphics.framework */; };
 		A72C411F1851508C00CD03F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C411E1851508C00CD03F1 /* UIKit.framework */; };
@@ -21,6 +30,15 @@
 		A72C413C1851508C00CD03F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C411E1851508C00CD03F1 /* UIKit.framework */; };
 		A72C41441851508C00CD03F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A72C41421851508C00CD03F1 /* InfoPlist.strings */; };
 		A72C41461851508C00CD03F1 /* Project_II_DMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A72C41451851508C00CD03F1 /* Project_II_DMTests.m */; };
+		A72C41501851509E00CD03F1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72C414F1851509E00CD03F1 /* AVFoundation.framework */; };
+		A72C4152185150FA00CD03F1 /* SeaBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C4151185150FA00CD03F1 /* SeaBackground.png */; };
+		A72C4154185151C800CD03F1 /* seaweed.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C4153185151C800CD03F1 /* seaweed.png */; };
+		A72C41561851522A00CD03F1 /* minifish.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C41551851522A00CD03F1 /* minifish.png */; };
+		A72C41581851523600CD03F1 /* Hook.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C41571851523600CD03F1 /* Hook.png */; };
+		A72C415A1851528D00CD03F1 /* sharkup1.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C41591851528D00CD03F1 /* sharkup1.png */; };
+		A72C415C185152E800CD03F1 /* Jellyfish7.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C415B185152E800CD03F1 /* Jellyfish7.png */; };
+		A72C415E185154C600CD03F1 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C415D185154C600CD03F1 /* Logo.png */; };
+		A72C416018515AC200CD03F1 /* sharkdown1.png in Resources */ = {isa = PBXBuildFile; fileRef = A72C415F18515AC200CD03F1 /* sharkdown1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A70916CA1855CEE1004DF565 /* SABackground.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SABackground.mp3; sourceTree = "<group>"; };
+		A70916CC185742F3004DF565 /* sharkdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkdown.png; sourceTree = "<group>"; };
+		A70916CE185742F9004DF565 /* sharkup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkup.png; sourceTree = "<group>"; };
+		A70916D018575C27004DF565 /* Jellyfish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jellyfish.png; sourceTree = "<group>"; };
+		A70916D218575D08004DF565 /* sharkdown2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkdown2.png; sourceTree = "<group>"; };
+		A70916D318575D08004DF565 /* sharkup2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkup2.png; sourceTree = "<group>"; };
+		A723C3C918577F7100F355FC /* OJWSViewController */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OJWSViewController; sourceTree = "<group>"; };
+		A723C3D11857B81600F355FC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A723C3D31857C9B300F355FC /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A72C41171851508C00CD03F1 /* Project II DM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project II DM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A72C411A1851508C00CD03F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A72C411C1851508C00CD03F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +80,15 @@
 		A72C41411851508C00CD03F1 /* Project II DMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Project II DMTests-Info.plist"; sourceTree = "<group>"; };
 		A72C41431851508C00CD03F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A72C41451851508C00CD03F1 /* Project_II_DMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_II_DMTests.m; sourceTree = "<group>"; };
+		A72C414F1851509E00CD03F1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A72C4151185150FA00CD03F1 /* SeaBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SeaBackground.png; sourceTree = "<group>"; };
+		A72C4153185151C800CD03F1 /* seaweed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seaweed.png; sourceTree = "<group>"; };
+		A72C41551851522A00CD03F1 /* minifish.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minifish.png; sourceTree = "<group>"; };
+		A72C41571851523600CD03F1 /* Hook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hook.png; sourceTree = "<group>"; };
+		A72C41591851528D00CD03F1 /* sharkup1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkup1.png; sourceTree = "<group>"; };
+		A72C415B185152E800CD03F1 /* Jellyfish7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jellyfish7.png; sourceTree = "<group>"; };
+		A72C415D185154C600CD03F1 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		A72C415F18515AC200CD03F1 /* sharkdown1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharkdown1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A723C3D41857C9B300F355FC /* Social.framework in Frameworks */,
+				A723C3D21857B81600F355FC /* AudioToolbox.framework in Frameworks */,
+				A72C41501851509E00CD03F1 /* AVFoundation.framework in Frameworks */,
 				A72C411D1851508C00CD03F1 /* CoreGraphics.framework in Frameworks */,
 				A72C411F1851508C00CD03F1 /* UIKit.framework in Frameworks */,
 				A72C411B1851508C00CD03F1 /* Foundation.framework in Frameworks */,
@@ -101,6 +140,9 @@
 		A72C41191851508C00CD03F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A723C3D31857C9B300F355FC /* Social.framework */,
+				A723C3D11857B81600F355FC /* AudioToolbox.framework */,
+				A72C414F1851509E00CD03F1 /* AVFoundation.framework */,
 				A72C411A1851508C00CD03F1 /* Foundation.framework */,
 				A72C411C1851508C00CD03F1 /* CoreGraphics.framework */,
 				A72C411E1851508C00CD03F1 /* UIKit.framework */,
@@ -117,6 +159,7 @@
 				A72C412C1851508C00CD03F1 /* Main.storyboard */,
 				A72C412F1851508C00CD03F1 /* OJWSViewController.h */,
 				A72C41301851508C00CD03F1 /* OJWSViewController.m */,
+				A723C3C918577F7100F355FC /* OJWSViewController */,
 				A72C41321851508C00CD03F1 /* Images.xcassets */,
 				A72C41211851508C00CD03F1 /* Supporting Files */,
 			);
@@ -126,6 +169,20 @@
 		A72C41211851508C00CD03F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A70916D018575C27004DF565 /* Jellyfish.png */,
+				A70916CC185742F3004DF565 /* sharkdown.png */,
+				A70916D218575D08004DF565 /* sharkdown2.png */,
+				A70916D318575D08004DF565 /* sharkup2.png */,
+				A70916CA1855CEE1004DF565 /* SABackground.mp3 */,
+				A72C415F18515AC200CD03F1 /* sharkdown1.png */,
+				A70916CE185742F9004DF565 /* sharkup.png */,
+				A72C415D185154C600CD03F1 /* Logo.png */,
+				A72C415B185152E800CD03F1 /* Jellyfish7.png */,
+				A72C41591851528D00CD03F1 /* sharkup1.png */,
+				A72C41571851523600CD03F1 /* Hook.png */,
+				A72C41551851522A00CD03F1 /* minifish.png */,
+				A72C4153185151C800CD03F1 /* seaweed.png */,
+				A72C4151185150FA00CD03F1 /* SeaBackground.png */,
 				A72C41221851508C00CD03F1 /* Project II DM-Info.plist */,
 				A72C41231851508C00CD03F1 /* InfoPlist.strings */,
 				A72C41261851508C00CD03F1 /* main.m */,
@@ -200,6 +257,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Oliver Joseph Westlake-Simm";
 				TargetAttributes = {
+					A72C41161851508C00CD03F1 = {
+						DevelopmentTeam = W6845QNASG;
+					};
 					A72C41371851508C00CD03F1 = {
 						TestTargetID = A72C41161851508C00CD03F1;
 					};
@@ -229,9 +289,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70916D518575D08004DF565 /* sharkup2.png in Resources */,
+				A72C415C185152E800CD03F1 /* Jellyfish7.png in Resources */,
+				A72C41581851523600CD03F1 /* Hook.png in Resources */,
+				A72C415E185154C600CD03F1 /* Logo.png in Resources */,
+				A72C41561851522A00CD03F1 /* minifish.png in Resources */,
+				A70916D418575D08004DF565 /* sharkdown2.png in Resources */,
 				A72C41331851508C00CD03F1 /* Images.xcassets in Resources */,
+				A72C4154185151C800CD03F1 /* seaweed.png in Resources */,
+				A70916CB1855CEE1004DF565 /* SABackground.mp3 in Resources */,
+				A70916CD185742F3004DF565 /* sharkdown.png in Resources */,
+				A723C3CA18577F7100F355FC /* OJWSViewController in Resources */,
+				A72C415A1851528D00CD03F1 /* sharkup1.png in Resources */,
+				A72C4152185150FA00CD03F1 /* SeaBackground.png in Resources */,
 				A72C41251851508C00CD03F1 /* InfoPlist.strings in Resources */,
 				A72C412E1851508C00CD03F1 /* Main.storyboard in Resources */,
+				A70916CF185742F9004DF565 /* sharkup.png in Resources */,
+				A72C416018515AC200CD03F1 /* sharkdown1.png in Resources */,
+				A70916D118575C27004DF565 /* Jellyfish.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,10 +454,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Project II DM/Project II DM-Prefix.pch";
 				INFOPLIST_FILE = "Project II DM/Project II DM-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +470,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Project II DM/Project II DM-Prefix.pch";
 				INFOPLIST_FILE = "Project II DM/Project II DM-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +542,7 @@
 				A72C414B1851508C00CD03F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A72C414C1851508C00CD03F1 /* Build configuration list for PBXNativeTarget "Project II DMTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +551,7 @@
 				A72C414E1851508C00CD03F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

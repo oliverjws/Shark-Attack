@@ -16,8 +16,6 @@
 
 -(void)Collision{
     
-    [self vibrate];
-    
     //if shark & jellyfish touch run end game script.
     if (CGRectIntersectsRect(Shark.frame, Jellyfish1.frame)) { [self EndGame];
     }
@@ -63,15 +61,11 @@
         SmallFish3.hidden = YES; [self Scoring];
     }
     
-    
+  
 }
 
 -(void)EndGame{
     
-    if (ScoreNumber > HighScore) {
-        HighScore = ScoreNumber;
-        [[NSUserDefaults standardUserDefaults] setInteger:HighScore forKey:@"HighScoreSaved:"];
-    }
     //hides shark when game ends
     
     Shark.hidden = YES;
@@ -120,7 +114,6 @@
     ScoreNumber = 000; //resets back to zero
     Score.text = [NSString stringWithFormat:@"score:0"];
     
-    Intro2.text = [NSString stringWithFormat:@"High Score: %i", HighScore];
     
     
 }
@@ -179,7 +172,7 @@
     
     if (Hook3.center.x < -5){
         
-        
+       
         Hook3.center = CGPointMake(520, 6);
         Seaweed3.center = CGPointMake(520, 282);
     }
@@ -190,7 +183,6 @@
         Hook4.center = CGPointMake(520, 5);
         Seaweed4.center = CGPointMake(520, 290);
     }
-
     
 }
 
@@ -208,27 +200,27 @@
 
 -(void)SmallFishes  {
     
-    SmallFish1.hidden = NO;
-    SmallFish2.hidden = NO;
-    SmallFish3.hidden = NO;
+        SmallFish1.hidden = NO;
+        SmallFish2.hidden = NO;
+        SmallFish3.hidden = NO;
+
+   
+        randomPosition = arc4random() %210;
+        randomPosition = randomPosition + 150;
+        SmallFish1.center = CGPointMake(520, randomPosition);
     
     
-    randomPosition = arc4random() %210;
-    randomPosition = randomPosition + 150;
-    SmallFish1.center = CGPointMake(520, randomPosition);
     
-    
-    
-    randomPosition = arc4random() %110;
-    randomPosition = randomPosition +80;
-    SmallFish1.center = CGPointMake(520, randomPosition);
-    
-    
-    randomPosition = arc4random() %290;
-    randomPosition = randomPosition +120;
-    SmallFish3.center = CGPointMake(520, randomPosition);
-    
-    
+        randomPosition = arc4random() %110;
+        randomPosition = randomPosition +80;
+        SmallFish1.center = CGPointMake(520, randomPosition);
+
+
+        randomPosition = arc4random() %290;
+        randomPosition = randomPosition +120;
+        SmallFish3.center = CGPointMake(520, randomPosition);
+
+
 }
 
 
@@ -249,12 +241,11 @@
         timer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(SharkMove) userInfo:Nil repeats:YES];
         
         
-        FishRestart = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(SmallFishes) userInfo:Nil repeats:YES];
+         FishRestart = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(SmallFishes) userInfo:Nil repeats:YES];
         
-            
-        [backgroundMusic setVolume:0.3];
-        [backgroundMusic play];
-         backgroundMusic.numberOfLoops= -1;
+        //Timer everyone second run void scoring
+        // Scorer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(Scoring) userInfo:nil repeats:YES];
+        
         
         //when we tap screen next time start will be no and the code will not run
         Start = NO;
@@ -263,12 +254,12 @@
         Seaweed2.hidden = NO;
         Seaweed3.hidden = NO;
         Seaweed4.hidden = NO;
-        
+       
         Hook1.hidden = NO;
         Hook2.hidden = NO;
         Hook3.hidden = NO;
         Hook4.hidden = NO;
-        
+      
         Jellyfish1.hidden = NO;
         Jellyfish2.hidden = NO;;
         
@@ -302,11 +293,11 @@
         Hook2.center = CGPointMake(180, 10);
         Seaweed2.center = CGPointMake(180, 285);
         
-        
+      
         Hook3.center = CGPointMake(300, 21);
         Seaweed3.center = CGPointMake(300, 280);
         
-        
+       
         Hook4.center = CGPointMake(440, 17);
         Seaweed4.center = CGPointMake(440, 282);
     }
@@ -324,30 +315,6 @@
     
     
 }
-
--(void)vibrate
-{
-    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-}
-
-
-- (AVAudioPlayer *)setupAudioPlayerWithFile:(NSString *)file type:(NSString *)type
-{
-
-    NSString *path = [[NSBundle mainBundle] pathForResource:file ofType:type];
-    NSURL *url = [NSURL fileURLWithPath:path];
-    
-    NSError *error;
-    
-    AVAudioPlayer *audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:&error];
-    
-    if (!audioPlayer) {
-        NSLog(@"%@",[error description]);
-    }
-    
-    return audioPlayer;
-}
-
 
 
 - (void)viewDidLoad
@@ -372,11 +339,6 @@
     SmallFish2.hidden = YES;
     SmallFish3.hidden = YES;
     
-    HighScore = [[NSUserDefaults standardUserDefaults] integerForKey:@"HighScoreSaved"];
-    Intro2.text = [NSString stringWithFormat:@"High Score: %i", HighScore];
-    
-    
-    backgroundMusic = [self setupAudioPlayerWithFile:@"SABackground" type:@"mp3"];
     
     [super viewDidLoad];
     
